@@ -4,7 +4,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import com.example.repository.AdoministratorRepository;
+import com.example.repository.AdministratorRepository;
 
 /**
  * 管理者のサービスクラス
@@ -15,7 +15,7 @@ import com.example.repository.AdoministratorRepository;
 public class AdministratorService {
 
     @Autowired
-    private AdoministratorRepository repository;
+    private AdministratorRepository administratorRepository;
 
     
 }

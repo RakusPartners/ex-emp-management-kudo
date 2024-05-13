@@ -18,7 +18,7 @@ import com.example.domain.Administrator;
  */
 
 @Repository
-public class AdoministratorRepository {
+public class AdministratorRepository {
 
     @Autowired
     private NamedParameterJdbcTemplate template;
