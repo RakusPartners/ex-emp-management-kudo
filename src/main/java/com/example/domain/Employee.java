@@ -4,7 +4,6 @@ import java.util.Date;
 
 /**
 * Employeeは、従業員情報を表すドメインです。
-* @author　tokushi_kudo
 *
 */
 
@@ -23,7 +22,20 @@ public class Employee {
     private String characteristics;
     private Integer dependentsCount;
 
-    
+    /**
+     * コンストラクタ
+     *
+     * @param Admin 従業員情報
+     */
+    public void Employee() {
+
+    }
+
+    /**
+     * 以下、getter/setter
+     *
+     * @param Admin 従業員情報
+     */
 
     public Integer getId() {
         return id;

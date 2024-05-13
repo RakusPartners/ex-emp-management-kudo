@@ -2,7 +2,6 @@ package com.example.domain;
 
  /**
 * Administratorは、管理員情報を表すドメインです。
-* @author　tokushi_kudo
 *
 */
 
@@ -13,9 +12,20 @@ public class Administrator {
     private String mailAddress;
     private String password;
 
+    /**
+     * コンストラクタ
+     *
+     * @param Admin 管理者情報
+     */
     public void Administrator() {
 
     }
+
+    /**
+     * 以下、getter/setter
+     *
+     * @param Admin 管理者情報
+     */
 
     public Integer getId() {
         return id;
