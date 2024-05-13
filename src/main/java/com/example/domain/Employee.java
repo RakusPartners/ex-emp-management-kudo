@@ -32,7 +32,7 @@ public class Employee {
     }
 
     /**
-     * 以下、getter/setter
+     * 以下、getter/setter/toStringメソッド
      *
      * @param Admin 従業員情報
      */
