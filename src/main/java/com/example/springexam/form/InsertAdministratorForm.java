@@ -1,4 +1,4 @@
-package com.example.form;
+package com.example.springexam.form;
 
 /**
  * 管理者情報を受け取るフォームクラス

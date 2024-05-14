@@ -1,4 +1,4 @@
-package com.example.domain;
+package com.example.springexam.domain;
 
  /**
 * Administratorは、管理員情報を表すドメインです。

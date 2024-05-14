@@ -1,4 +1,4 @@
-package com.example.repository;
+package com.example.springexam.repository;
 
 import java.lang.reflect.Member;
 import java.util.List;
@@ -11,7 +11,7 @@ import org.springframework.jdbc.core.namedparam.NamedParameterJdbcTemplate;
 import org.springframework.jdbc.core.namedparam.SqlParameterSource;
 import org.springframework.stereotype.Repository;
 
-import com.example.domain.Administrator;
+import com.example.springexam.domain.Administrator;
 
 /**
  * 管理者のリポジトリクラス
