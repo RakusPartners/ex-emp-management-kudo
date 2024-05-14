@@ -2420,9 +2420,12 @@ html {
       line-height: 46px;
     }
   }
+
+  
   .form-group {
     margin-bottom: 15px;
   }
+  
   .radio,
   .checkbox {
     position: relative;
@@ -4684,12 +4687,16 @@ html {
     padding: 9px;
     color: #333;
   }
+
+  /*
   .alert {
     padding: 15px;
     margin-bottom: 20px;
     border: 1px solid transparent;
     border-radius: 4px;
   }
+  */
+  
   .alert h4 {
     margin-top: 0;
     color: inherit;
@@ -4748,11 +4755,15 @@ html {
   .alert-warning .alert-link {
     color: #66512c;
   }
+
+  /*
   .alert-danger {
     color: #a94442;
     background-color: #f2dede;
     border-color: #ebccd1;
   }
+  */
+
   .alert-danger hr {
     border-top-color: #e4b9c0;
   }

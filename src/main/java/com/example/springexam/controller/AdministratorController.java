@@ -18,7 +18,7 @@ import com.example.springexam.service.AdministratorService;
 */
 
 @Controller
-@RequestMapping("")
+@RequestMapping("/")
 public class AdministratorController {
     
     @Autowired
